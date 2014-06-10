@@ -1,0 +1,66 @@
+===============================================================================
+:: Twitter Module
+===============================================================================
+							Created by Noah Fischel
+
+With this module, Alpha will read you the latest tweets from your favorite
+personalities; It's like they are talking directly to you, except they are not!
+It comes with 2 preloaded Twitters - President Obama and Bill Gates - but new
+users can easily be added via command or even removed.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Open [User] Twitter
+>> Read [User] Twitter
+>> Stop Reading
+>> ADD|	Remove Twitter user
+>> Display Twitter List
+>> Read twitter from list
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Open [User] Twitter
+
+Open user's twitter page
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Read [User] Twitter
+
+Read latest tweets. If a tweet contains a link, you can now open it.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Add|Remove Twitter user
+
+Adds|removes twitter user
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Display twitter list
+
+Display available twitter users
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Read Twitter from List
+
+Picks a user from a list to read.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Stop Reading
+
+Ex:	Stop Reading please
+	Stop Talking
+	Thank you
+	That's enough
+
+Stops reading them tweets.
+-------------------------------------------------------------------------------

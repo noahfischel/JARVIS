@@ -1,0 +1,84 @@
+===============================================================================
+:: Basic System Commands
+===============================================================================
+							Created by Noah Fischel
+
+These commands deal with the simplest functions of Alpha.
+Can't get much simpler than this.
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Open Interface
+>> Change computer name
+>> Change my name
+>> Good Morning
+>> Good Night
+>> Stop Reading
+>> Check system status
+>> Send Email
+>> Send Feedback
+>> What time is it
+>> What's the date
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Open Interface
+
+EX:	Show Display
+	Would you please open user interface
+	Display visual Interface
+
+(Re)Opens the graphical user interface, where some of the commands are
+outputed. Remember that some new commands only display information with no
+vocal feedback.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change Computer Name
+
+EX:	Change computer name
+	Change your name to [...]
+	I will call you [...]
+
+Changes Alpha's name to the desired new one.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change My Name
+
+EX:	Call me [...]
+	Change my name
+
+Changes the username, and how Alpha addresses you.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Good Morning
+
+EX:	Good Morning
+	Good Day Alpha
+
+Automatically gives you the time, weather forecast for today and email count.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Good Night
+
+EX:	Good Night Alpha
+	Sleep Well
+
+Puts Alpha on sleep mode. Similar to the default "Stop Listening" command.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Check system status
+
+Checks computer's battery, CPU and RAM.
+-------------------------------------------------------------------------------
+

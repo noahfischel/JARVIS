@@ -1,0 +1,24 @@
+==========================================
+:: RSS Database			
+==========================================
+
+<newsmax>5</newsmax>		Max # of items read. Keep it between 1-5
+
+<epaper>
+
+<rss>
+  <name>C N N News</name>
+  <site>http://rss.cnn.com/rss/cnn_topstories.rss</site>
+</rss>
+
+<rss>
+  <name>Yahoo News</name>
+  <site>http://rss.news.yahoo.com/rss/topstories</site>
+</rss>
+
+<rss>
+  <name>B B C News</name>
+  <site>http://feeds.bbci.co.uk/news/rss.xml</site>
+</rss>
+
+</epaper>

@@ -1,0 +1,46 @@
+===============================================================================
+:: Random Module
+===============================================================================
+							Created by Noah Fischel
+
+Module created purely for shits and giggles.
+Created basicaly for testing the new Visual Interface, but also very fun.
+Whenever you feel like generating anything that deals with randomness or just
+for having fun with the unpredictable outcomes dealt by the gods of fate.
+Rolls dice, flip coins or generate plain random numbers.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Roll [1to20] [Sides] sided Dice
+>> Flip [1to20] Coins
+>> Generate [1to20] Random Numbers
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+Roll Dice
+
+Ex:	Roll 5 20 sided dice
+	Roll 4d10
+	Roll 3 dice [Defaults to 6 sided dice]
+
+Great for those On-The-Go Dnd Players, or just board gamers in general.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Flip [1to20] Coins
+
+Needs to decide anything? Why not leave it to fate?
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Generate [1to20] Random numbers
+
+Generates random numbers based on the number limit decided by you.
+-------------------------------------------------------------------------------

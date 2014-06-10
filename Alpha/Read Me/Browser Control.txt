@@ -1,0 +1,39 @@
+===============================================================================
+:: Broweser Control [Chrome & Firefox]
+===============================================================================
+							Edited by Noah Fischel
+
+Basic control over chrome and firefox: Tabs switching, tabs control,
+navigation, pages...
+It's all about voice activated shortcuts, really.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Next/Previous tab
+>> Go to tab #
+>> New/Close/Reopen tab
+>> Go back/Return/Go Forward
+>> Home Page
+>> Refresh/Reload
+>> Stop Loading
+>> Go to Top/Bottom
+>> Page Source
+>> Zoom In/Out
+>> Reset Zoom
+>> Full Screen
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+Nope, the list is all there is to it. No need to go through every one of 'em.
+
+Only restriction is that you need to have Chrome|Firefox as your active window.
+
+Voilà!
+-------------------------------------------------------------------------------

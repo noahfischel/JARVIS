@@ -1,0 +1,44 @@
+===============================================================================
+:: Windows Media Player
+===============================================================================
+							Noah Fischel
+
+Simple and elegant control for WMP.
+Slightly edited for less bugginess.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Play [Artist]
+>> Play album [Album]
+>> Play genre [Genre]
+>> Play track|song [TrackName]
+
+>> Play the album that has [AlbumByTrack] on it
+>> Play the artist that sang [ArtistByTrack]
+>> Play something by [TrackOrAlbumByArtist]
+
+>> Show me [Songs|Albums|Srtists] I haven't played in a while
+
+>> Next Track
+>> Previous Track
+>> Go back [1to20] tracks
+>> Go forward [1to20] tracks
+>> play music
+>> stop music
+>> pause music
+>> turn repeat on|off
+>> Toggle repeat
+>> Shuffle on|off
+>> Toggle Shuffle
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+All Hail Molkemon!
+-------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+===============================================================================
+:: Shortcut Launcher
+===============================================================================
+							Created by Noah Fischel
+
+Creates, manages and runs shortcuts to you favorite files, folders and websites
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Run|Open|Launch [File|Folder|Website]
+>> Create New Shortcut
+>> Delete Shortcut
+>> Display program list
+>> Open program from list

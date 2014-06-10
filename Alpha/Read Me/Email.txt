@@ -1,0 +1,101 @@
+===============================================================================
+:: Email Module
+===============================================================================
+							Created by Noah Fischel
+
+For all your messaging needs. It checks your unread emails, reads the subject
+and now; with a brand new function: AUTOCHECK! Turn the autocheck on and you'll
+be warned when a new message arrives!!! Is it awesome or WHAT?!?!?!
+Obs: Works for Gmail ONLY!
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Open email
+
+>> Turn email autocheck ON/OFF
+>> check email autocheck
+
+>> Check/Read email
+>> Stop Reading
+
+>> Change email Username
+>> Change email Password
+
+>> Change email limit
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Open Email
+
+EX:	Open my Email
+	Show me my emails
+
+Simply opens gmail
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Turn email autocheck ON/OFF
+
+EX:	Turn email autocheck ON/OFF
+	Initiate email autocheck, please
+	Terminate email autocheck
+
+THE BRAND NEW AUTOCHECK! While ON it will check your email every X minutes (set
+the value of the intervals in the database) for received messages. It doesnt
+check your UNREAD emails, but the ones you RECEIVE! Eg: You have 5 unread
+emails and you receive 2 new messages while autocheck is ON, so you will be
+informed of: YOU RECEIVED 2 NEW MESSAGES! Turn OFF when needed.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Check email autocheck
+
+EX:	Check email autocheck, would you?
+	Is email autocheck ON?
+	Can you check if is email autocheck OFF?
+
+Checks wether email autocheck is ON or OFF.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Check/Read email
+
+Ex:	Check my email
+	Do I have new emails?
+	How many unread emails have I got?
+	Can you please read my email?
+
+Checks your email for unread messages. If you do have them, it asks for
+confirmation to read the subjects for you. A simple "yes, please" or "no, thank
+you" answers it.
+If asked to read your email it skips the confirmation part altogether.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Stop Reading
+
+Ex:	Stop Reading please
+	Stop Talking
+	Thank you
+	That's enough
+
+Stops reading your emails, in case there are too many of them.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change Username|Password
+
+Set Gmail username|password
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change email limit
+
+Changes the maximum amount of emails read. Set to 0 for ALL (not advised)
+-------------------------------------------------------------------------------

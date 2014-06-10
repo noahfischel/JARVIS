@@ -1,0 +1,29 @@
+==========================================
+:: Main Database			
+==========================================
+
+::General Info
+<user>Sir</user>
+<computer>Alpha</computer>
+
+
+::Alarm
+<sound></sound>
+
+
+::Gmail Data
+<guser></guser>
+<gpass></gpass>
+<gauto>5</gauto>
+<gmax>5</gmax>
+
+
+::Facebook Feed Page
+<facebook></facebook>
+<fauto>5</fauto>
+<fmax>5</fmax>
+
+
+::Folders
+<music></music>
+<movies></movies>

@@ -1,0 +1,36 @@
+===============================================================================
+:: Wolfram|Alpha Module
+===============================================================================
+							Created by Noah Fischel
+
+Integrated Wolfram|alpha module. Seamlessly search for ANY info and have it
+answered for you.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Open Wolfram prompt
+>> Wolfram [...]
+>> Search Wolfram for [...]
+>> [Whatever direct question you feel like asking]
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+Search Wolfram for [...]
+
+Ex:	When did we land on the moon?
+	How many days until Christmas?
+	Where did the Titanic sink?
+	Define Ironic
+	Convert 5 feet to meters
+	Solve X squared plus X plus 2 for X
+
+Have Alpha answer any burning question you might have. From simple mathematical
+questions to the meaning of life.
+-------------------------------------------------------------------------------

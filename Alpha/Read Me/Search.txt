@@ -1,0 +1,54 @@
+===============================================================================
+:: Search Module
+===============================================================================
+							Created by Noah Fischel
+
+Searches the web for a specific bit of information. Given the quality of WSR
+for "freestyle recognition" most of the times it missunderstands what you are
+searching for. Now there's a confirmation prompt where you can manually correct
+the search's terms.
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Search [Website] for [...]
+>> Find this [Thing]
+>> Search from List
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Search from list
+
+Picks the site you want to search from a list and then manually enter the
+desired search terms.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Search [Website]
+
+EX:	Search [GoogleImages] for [Anything really]
+	Find [Germany] on [Google Maps]
+	Search [Wikipedia] for [Technology?]
+	
+
+Searches the desired website for whatever you want.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Find this [Thing]
+
+EX:	Find this [Image]
+	          [Place]
+	          [Person]
+                  [Meme]
+		  [Article]
+                  [etc...]
+
+Uses the highlighted text as base for a search on the respective website.
+Dont forget to highlight the text before using this command.
+-------------------------------------------------------------------------------

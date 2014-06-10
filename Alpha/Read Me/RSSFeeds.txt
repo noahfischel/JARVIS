@@ -1,0 +1,80 @@
+===============================================================================
+:: RSS Feeds Module
+===============================================================================
+						Created by Keapon Laffin
+						Edited by Noah Fischel
+
+In need of your daily dose of news? Technology? Gaming? Not anymore!
+Just add the feed via "Insert New Feed" and voilá! You are ready to go!
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Read [FeedName]
+>> Stop Reading
+>> Open [links]
+
+>> Add new|Delete RSS Feed
+
+>> Display RSS List
+>> Read RSS feed from list
+
+>> Change Feed Limit
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Read [FeedName]
+
+EX:	Please read me [FeedName]
+		       (IDK, CNN News perhaps?)
+
+Not much to explain here. Just be sure not to set the number of items to be
+read over 5 'cause it causes many RSS feeds to crash. Also, some feeds can NOT
+be read. It's a shame, really.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Open [Links]
+
+Ex:	Open the first, third and fourth links
+	Open the second link
+	Open every link
+
+After finishing reading the desired feed, Alpha offers to open any of the
+displaying links. Just state which one you'd  like to open, with a limit of
+5 links per time.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Stop Reading
+
+Ex:	Stop Reading please
+	Stop Talking
+	Thank you
+	That's enough
+
+Stops reading your feeds because the news are not always that interesting.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> ADD|Delete RSS Feed
+
+Self Explanatory
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Display RSS List
+
+Display a list of your available feeds.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Read feed from list
+
+Choose Feed from a list of available ones to read, to ease confution and
+misunderstanding.
+-------------------------------------------------------------------------------

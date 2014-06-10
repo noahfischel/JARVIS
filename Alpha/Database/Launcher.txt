@@ -1,0 +1,12 @@
+==========================================
+:: Launcher Database			
+==========================================
+
+<launcher>
+
+<launch>
+<name>?Project Alpha Website</name>
+<path>http://alphawsr.tumblr.com</path>
+</launch>
+
+</launcher>

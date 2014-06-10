@@ -1,0 +1,24 @@
+==========================================
+:: People Database			
+==========================================
+
+<fakebook>
+
+<person>
+<name>Alpha</name>
+<nick>Alpha</nick>
+<bday>
+	<day>13</day>
+	<month>12</month>
+	<year>2010</year>
+</bday>
+<phones>
+	<home></home>
+	<cell></cell>
+	<work></work>
+</phones>
+<address>123 Fake Street, Springfield</address>
+<email>AlphaWSR@gmail.com</email>
+</person>
+
+</fakebook>

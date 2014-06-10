@@ -1,0 +1,91 @@
+==========================================
+:: Search Database
+==========================================
+
+<megadb>
+
+<site>
+  <name>Google</name>
+  <type>Info</type>
+  <search>http://www.google.com/search?q=</search>
+</site>
+
+<site>
+  <name>Google Image</name>
+  <type>Image</type>
+  <search>http://www.google.com/images?q=</search>
+</site>
+
+<site>
+  <name>Google Maps</name>
+  <type>Place</type>
+  <search>http://www.google.com/maps?q=</search>
+</site>
+
+<site>
+  <name>Google News</name>
+  <type>News</type>
+  <search>http://www.google.com/news?q=</search>
+</site>
+
+<site>
+  <name>?The Dictionary</name>
+  <type>Definition</type>
+  <search>http://www.google.com/search?q=define%3A</search>
+</site>
+
+<site>
+  <name>Thesaurus</name>
+  <type>Synonym</type>
+  <search>http://thesaurus.reference.com/browse/</search>
+</site>
+
+<site>
+  <name>Wikipedia</name>
+  <type>Article</type>
+  <search>http://en.wikipedia.org/wiki/Special:Search?search=</search>
+</site>
+
+<site>
+  <name>Ebay</name>
+  <type>for Sale</type>
+  <search>http://search.ebay.com/search/search.dll?satitle=</search>
+</site>
+
+<site>
+  <name>Know Your Meme</name>
+  <type>Meme</type>
+  <search>http://knowyourmeme.com/search/memes?q=</search>
+</site>
+
+<site>
+  <name>Urban Dictionary</name>
+  <type>Slang</type>
+  <search>http://www.urbandictionary.com/define.php?term=</search>
+</site>
+
+<site>
+  <name>Pirate Bay</name>
+  <type>Torrent</type>
+  <search>http://thepiratebay.org/search/</search>
+</site>
+
+<site>
+  <name>I M D B</name>
+  <type>Movie</type>
+  <search>http://www.imdb.com/find?q=</search>
+</site>
+
+<site>
+  <name>FaceBook</name>
+  <type>Person</type>
+  <search>www.facebook.com/search/results.php?q=</search>
+</site>
+
+<site>
+  <name>Youtube</name>
+  <type>Video</type>
+  <search>http://www.youtube.com/results?search_query=</search>
+</site>
+
+</megadb>

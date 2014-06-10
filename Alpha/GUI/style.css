@@ -1,0 +1,577 @@
+/* =======================================================
+::			   MAIN				::
+======================================================= */
+
+body{
+	background-image: url('imgs/bg.jpg');
+	font-family:"Century Gothic";
+	font-size: 14px;
+	text-align: left;
+	color: #c8c8c8;
+	overflow: hidden;
+}
+
+a:link 		{color:#AAA;}    
+a:visited 	{color:#AAA;}
+a:hover 	{color:#777;}
+a:active 	{color:#777;}
+
+
+iframe{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#main{
+	width: 350px;
+	height: 100%;
+	border-radius: 5px;
+	position:relative;
+
+	background: rgba(0,0,0,0.6);
+	box-shadow: inset 0px 0px 0px 1px #1b1b1b;
+	border: 1px solid rgba(0,0,0,0);
+}
+
+#header{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 45px;
+
+	width: 328px;
+	margin: 1px 1px 40px 1px;
+	height: 30px;
+	border-radius: 5px 5px 0 0;
+
+	background: #000000;
+}
+
+#sub{
+	width:300px;
+	height:23px;
+
+	text-align: right;
+	padding-right: 23px;
+	padding-top: 3px;
+
+	position:absolute;
+	right:-3px;
+	top:83px;
+
+	background: linear-gradient(to left, rgba(0,0,0,1) 00%, rgba(0,0,0,0) 50%);
+	background: -moz-linear-gradient(to left, rgba(0,0,0,1) 00%, rgba(0,0,0,0) 50%);
+}
+
+/* =======================================================
+::			  UPDATE			::
+======================================================= */
+#update:after{
+	background: url('imgs/update.png');
+	width: 18px;
+	height: 21px;
+	content: "";
+	display: block;
+	position: absolute;
+	left: -24px;
+	top: 3px;
+}
+
+#update{
+	border-radius: 5px;
+	background: rgba(50,0,50,0.6);
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 28px;
+	position: relative;
+	padding: 5px 10px 5px 10px;
+}
+
+/* =======================================================
+::			  SHIELDS			::
+======================================================= */
+
+.shield{
+	background: url('imgs/shield.png');
+	width: 70px;
+	height: 85px;
+	content: "";
+	display: block;
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+
+/* =======================================================
+::		            DiceTot			::
+======================================================= */
+
+.diceout{
+	width: 70px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 21pt;
+	text-shadow: 0 4px black;
+	margin-top: 23px;
+}
+
+/* =======================================================
+::		       WOLFRAM|ALPHA			::
+======================================================= */
+
+.wolfram{
+	background: url('imgs/shields/wolfram.png');
+}
+
+.wolframtxt:after{
+	background: url('imgs/bubble.png');
+	width: 23px;
+	height: 14px;
+	content: "";
+	display: block;
+	position: absolute;
+	left: -23px;
+	top: 8px;
+}
+
+.wolframtxt{
+	font-size: 12px;
+	border-radius: 5px;
+	background: rgba(0,0,0,0.6);
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 28px;
+	position: relative;
+	padding: 5px 10px 5px 10px;
+}
+
+
+/* =======================================================
+::			   TEXT				::
+======================================================= */
+
+#txtholder{
+	width: 5px;
+	height: 99%;
+	background: #000000;
+	position: absolute;
+	left: 10px;
+	bottom: 1px;
+}
+
+.txt:after{
+	background: url('imgs/bubble.png');
+	width: 23px;
+	height: 14px;
+	content: "";
+	display: block;
+	position: absolute;
+	left: -23px;
+	top: 8px;
+}
+
+.txt{
+	border-radius: 5px;
+	background: rgba(0,0,0,0.6);
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 28px;
+	position: relative;
+	padding: 5px 10px 5px 10px;
+}
+
+/* =======================================================
+::		         DATE & TIME			::
+======================================================= */
+
+#timekeeper{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.flip {
+	position: relative;
+	font-size: 72px;
+	font-weight:bold;
+	padding-top: 7px; margin-right: 5px;
+	background: linear-gradient(to bottom, rgba(0,0,0,.25) 50%, rgba(0,0,0,0.6) 50%);
+	background: -moz-linear-gradient(to bottom, rgba(0,0,0,.25) 50%, rgba(0,0,0,0.6) 50%);
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 5px;
+	
+	/* 3d effect using box-shadows */
+	box-shadow: 0px 5px rgba(0,0,0,1), inset 0px 0px 0px 1px #0f0f0f;
+	border: 1px solid rgba(0,0,0,0)
+}
+
+.spacer{
+	display: inline-block;
+	width: 10px;
+}
+
+.centerdiv{
+	display: inline-block;
+}
+
+.clock{
+	margin-right: 3px;
+	width: 70px;
+	height: 95px;
+}
+
+.calendar{
+	float: left;
+	width: 161px;
+	height: 154px;
+	margin-top: 10px;
+	margin-left: 8px;
+	text-align: center;
+
+	border-radius: 5px;
+	background: rgba(0,0,0,0.2);
+	/* 3d effect using box-shadows */
+	box-shadow: 0px 5px rgba(0,0,0,1), inset 0px 0px 0px 1px #0f0f0f;
+	border: 1px solid rgba(0,0,0,1);
+}
+
+.weekday{
+	text-align: center;
+	float:left;
+	width:21px;
+	height:21px;
+	padding:1px 1px 0px 1px;	
+}
+
+.day{
+	margin-left: 1px;
+	border-top: 1px solid #0f0f0f;	
+	border-right: 1px solid #0f0f0f;	
+	text-align: center;
+	float:left;
+	width:21px;
+	height:21px;
+	color: rgba(255,255,255,.1);
+}
+
+.today{
+	margin-left: 1px;
+	border-top: 1px solid #0f0f0f;	
+	border-right: 1px solid #0f0f0f;	
+	text-align: center;
+	float:left;
+	width:21px;
+	height:21px;
+	background: rgba(0,0,0,1);
+}
+
+.divider{
+	height: 2px;
+	background: linear-gradient(to bottom, rgba(255,255,255,.05) 50%, rgba(0,0,0,.6) 50%);
+	position: relative;
+	top: -42px;
+}
+
+.ampm{
+	font-size: 12px;
+	z-index: 1;
+	font-weight: normal;
+	position:absolute;
+	right: 8px;
+	top: 3px;
+}
+
+.week{
+	display: inline-block;
+	font-size: 12px;
+	margin-top: 15px;
+	border-radius: 5px;
+	width: 50px;
+	background: rgba(0,0,0,.5);
+	box-shadow: 1px 1px 0 0 rgba(255,255,255,.03), inset 0px 0px 2px 2px #000000;
+}
+
+.date{
+	font-size: 72px;
+	font-weight: bold;
+}
+
+/* =======================================================
+::		            RANDOM			::
+======================================================= */
+
+.d{
+	background: url(imgs/hex.png);
+	float: left;
+	text-align: center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	font-weight: bold;
+}
+
+.giant{
+	width: 300px;
+	height: 280px;
+	font-size: 210;
+	margin: 25px 0 0 25px;
+	padding-top: 20px;
+}
+
+.big{
+	width: 150px;
+	height: 130px;
+	font-size: 90;
+	margin: 15px 0 0 15px;
+	padding-top: 20px;
+}
+
+.med{
+	width: 100px;
+	height: 88px;
+	font-size: 60;
+	margin: 15px 0 0 12px;
+	padding-top: 15px;
+}
+
+.small{
+	width: 75px;
+	height: 65px;
+	font-size: 45;
+	margin: 10px 0 0 10px;
+	padding-top: 10px;
+}
+
+/* COINS*/
+
+.cgiant{
+	width: 300px;
+	height: 300px;
+	margin: 25px 0 0 25px;
+}
+
+.cbig{
+	width: 150px;
+	height: 150px;
+	margin: 15px 0 0 15px;
+}
+
+.cmed{
+	width: 100px;
+	height: 100px;
+	margin: 15px 0 0 12px;
+}
+
+.csmall{
+	width: 75px;
+	height: 75px;
+	margin: 10px 0 0 10px;
+}
+
+/* =======================================================
+::		            SYSTEM			::
+======================================================= */
+
+.hex{
+	width: 175px;
+	height: 125px;
+	background: url(imgs/hex.png);
+	text-align: center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	font-weight: bold;
+	position: relative;
+	font-size: 60;
+	padding-top:50px;
+}
+
+.sys{
+	display: inline-block;
+	margin: 0 -15px 0 5px;
+}
+
+.bat{
+	margin: 0 0 -31px 87px;
+}
+
+.sysname{
+	font-size:18;
+	margin-top: 5px;
+}
+
+.arc{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+/* =======================================================
+::		            WEATHER			::
+======================================================= */
+
+/*BIG ASSETS*/
+
+.wbig{
+	margin-left: 15px;
+	border: 1px solid #000000;
+	box-shadow: inset 0px 0px 0px 2px #0d0d0d;
+	position: relative;
+	background: rgba(0,0,0,0.6);
+	border-radius: 50%;
+	text-align: center;
+	font-size: 45;
+	font-weight: bold;
+	padding-top: 50px;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+
+.banner{
+	background: #000000;
+	text-align: center;
+	display: block;
+	position: absolute;
+	border-color: #0d0d0d;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	box-shadow: 0px 0px 0px 2px #000000;
+}
+
+.wup{
+	font-size: 18;
+	padding-top: 2px;
+	top: 12px;
+	width: 150px;
+	height: 25px;
+}
+
+.wdown{
+	font-size: 18;
+	padding-top: 2px;
+	bottom: 12px;
+	width: 150px;
+	height: 25px;
+}
+
+.wleft{
+	width: 60px;
+}
+
+.wright{
+	width: 60px;
+	right: 0px;
+}
+
+.wbig img{
+	position: absolute;
+	top:15px;
+	left:15px;
+}
+
+
+/* MINI ASSETS*/
+
+.wmed{
+	padding: 0px;
+	width: 100px;
+	height: 100px;	
+	margin: 10px 0 0 10px;
+}
+
+.wdmini{
+	font-size: 12;
+	font-weight: normal;
+	position: absolute;
+	bottom: 8px;
+	width: 100px;
+	height: 18px;
+}
+
+.wupmini{
+	font-size: 12;
+	font-weight: normal;
+	position: absolute;
+	padding-top:1px;
+	top: 8px;
+	width: 100px;
+	height: 17px;
+}
+
+.wlmini{
+	width: 40px;
+}
+
+.wrmini{
+	width: 40px;
+	right: 0px;
+}
+
+.wmed img{
+	width:80px;
+	height:80px;
+	top:10px;
+	left:10px;
+}
+
+/* =======================================================
+::		            GAMES			::
+======================================================= */
+
+#games{
+	position: absolute;
+	left: -5px;
+	top: 25px;
+}
+
+.slot{
+	display: inline-block;
+	margin: 5px;
+	position:relative;
+}
+
+#arrow{
+	display: inline-block;
+	position: relative;
+	top: -335px;
+}
+
+#wheel{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.gameholder{
+	text-align: center;
+}
+
+.chips{
+	display: inline-block;
+	background: url(imgs/games/chips.png);
+	width: 320px;
+	height: 65px;
+	content:  "";
+	margin:  5px;
+	position:relative;
+}
+
+.chipstotal{
+	font-weight: bold;
+	font-size: 36;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+}
+
+.chipspayout{
+	font-weight: bold;
+	font-size: 36;
+	position: absolute;
+	top: 10px;
+	right: 12px;
+}
+
+.badge{
+	margin: 6px;
+}

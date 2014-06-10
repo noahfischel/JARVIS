@@ -1,0 +1,20 @@
+==========================================
+:: Weather Database			
+==========================================
+
+<wunit>C</wunit>
+<wcode>AUTO</wcode>
+
+<weather>
+
+<place>
+<name>Paris</name>
+<code>FRXX0076</code>
+</place>
+
+<place>
+<name>Quebec</name>
+<code>CAXX0385</code>
+</place>
+
+</weather>

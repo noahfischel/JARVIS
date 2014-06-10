@@ -1,0 +1,88 @@
+===============================================================================
+:: Weather Module
+===============================================================================
+							Created by Noah Fischel
+
+Weather Forecast with current weather, temperature, humidity, sunrise and
+sunset for your location and anywhere else you might want!
+Starting from v3, Alpha now checks your current weather code AUTOMATICALLY!
+You can change your Weather Code and Add or remove extra locations via command.
+For a walkthrough on how to get the weather code for your region, check the
+WeatherCode.jpg file over at the Read-me folder.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Change Weather Code
+>> Change unit to Celsius|Fahrenheit
+
+>> Add new|Remove location
+>> Display location List
+
+>> How's the weather?
+>> Forecast for [Day]
+>> Forecast for next week
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Change Weather Code
+
+In case Alpha's automatic location detection doesn't work for you, you can
+change your weather location via this command.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change weather Units
+
+Ex:	Change weather units
+	change to Celsius
+	Change to Fahrenheit
+
+Change the weathers display unit.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Add|Remove Location
+
+Insert or remove locations for weather forecast.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Display Location List
+
+Show's every available weather location list.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> How's the weather?
+
+EX:	Check how's the weather in [...]
+
+Gives the current weather, temperature, windchill and humidity.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Forecast for [Day]
+
+EX:	Check Tomorrow's forecast
+	What's the forecast for friday in [...]?
+
+Gives the forecast for any day ranging from today to 6 days from now.
+Info on highest and lowest temperatures, expected weather for the entire day
+and sunrise and sunset times.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Forecast for Next week
+
+Ex:	What's the forecast for next week?
+	What's the forecast for the next 7 days in [...]
+
+Displays the forecast for the next 7 days.
+-------------------------------------------------------------------------------

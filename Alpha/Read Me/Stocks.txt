@@ -1,0 +1,38 @@
+===============================================================================
+:: Stocks Module
+===============================================================================
+							Created by Lynn Tassos
+							Edited by Noah Fischel
+
+Voice activated stocks information, because you have too much money applied in
+shares but not enough time to actually check in on them. Let Alpha do this job
+for you!
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Check [Name] stocks
+>> How are my stocks doing?
+>> Add|Delete Stock
+>> Check Stock from list
+>> Display Stock List
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+Check [Name] Stock
+
+Checks current share price, absolute and relative change and opening price.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+How are my stocks doing?
+
+Checks ALL of your available stocks.
+-------------------------------------------------------------------------------
+

@@ -1,0 +1,63 @@
+===============================================================================
+:: Alarm Module
+===============================================================================
+							Created by Noah Fischel
+
+A simple alarm function, capable of setting ONE alarm at a time.
+Whenever you set a new alarm, the previous one is disabled.
+Set the location of the alarm sound at the main database.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Set Alarm for [Hours] [Minutes] [AM/PM]
+>> Cancel Alarm
+>> Check Alarm
+>> Change Alarm Sound
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Set Alarm
+
+EX:	Set the alarm for nine fifteen AM
+	Wake me up at seven o'clock in the morning, please
+	Set an alarm to quarter to six in the afternoon
+
+Sets an alarm to sound within the next 24hs. The time needs to end at either
+5 or 0 [eg: 4:20 is ok, 6:23 is not].
+You can also use the sintax TO/PAST [eg: Five past Eight in the morning,
+Quarter to ten PM]
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Cancel Alarm
+
+EX:	Would you kindly cancel the alarm?
+	Turn off the alarm, please?
+	Disarm alarm
+
+Cancels the alarm, if set.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Check Alarm
+
+EX:	Check the alarm
+	When will the alarm sound?
+	At what time is the alarm set?
+	When did I set the alarm?
+
+Check whether is the alarm set or not and, if so, tells when will it sound.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change Alarm Sound
+
+Change the alarm sound file.
+-------------------------------------------------------------------------------

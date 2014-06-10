@@ -1,0 +1,45 @@
+s===============================================================================
+:: Translate Module
+===============================================================================
+							Created by Noah Fischel
+
+Translate to and from English using Google Translate.
+What languages, you say? What about EVERY SINGLE ONE OF THEM?!?!
+Afrikaans? WE HAVE IT!
+Khmer? GOT YOU COVERED!
+Inuktitut? I CAN'T EVEN PRONOUNCE IT!
+You will always know what to say, no matter the situation!
+Next one on the list: BRAILLE!
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Translate [Word|Phrase] to [Language]
+>> Translate this to English
+		 
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Translate [...] to [Language]
+
+Ex:	Translate [...] to [Language]
+	How can I say [...] in [Language]
+
+Translate any given word or phrase from english to the desired language.
+Expect some misunderstanding from WSR, but it does give some funny phrases.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Translate this to English
+
+Ex:	Translate to english
+	How can I say this in English
+
+Translate the highlighted text into english. Don't forget to highlight a text
+before using this command.
+-------------------------------------------------------------------------------

@@ -1,0 +1,76 @@
+===============================================================================
+:: Songs Module
+===============================================================================
+							Created by Noah Fischel
+
+Much like the movies module, it auto detects your playlists in your music
+folder and play them by request. It supports m3u and wpl files.
+You have to keep your playlists neatly named, so you can call them easier.
+To better understand how it works, check the Music.jpg file in the read-me
+folder.
+Starting from v3, Alpha shall ask you to define the desired music folder on
+startup, simplifying everything.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Change Music Folder
+>> Play music from List
+>> How many playlists do I have?
+>> What can I listen to
+>> Play some [Music]
+>> Stop Reading
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Play Music from List
+
+Picks playlist from an available list, to ease misunderstanding from Alpha.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> How many playlists do I have?
+
+EX:	Would you kindly check how many playlists do I have?
+
+Simply states the amount of playlists you have available for listening.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> What can I listen to?
+
+EX:	Which playlists do I have?
+	Can you check What can I listen to?
+
+States how many playlists you have and lists all of their names.
+To stop reading the list, check the Stop Reading Command.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Play [Movie]
+
+EX:	Play some [Music]
+	Start playing some [Music]
+	I want to listen to some [Music]
+	I'm in the mood for some [Music]
+
+Plays the selected playlist and disables itself, so you can enjoy your good
+music and maybe some wine.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Stop Reading
+
+Ex:	Stop Reading please
+	Stop Talking
+	Thank you
+	That's enough
+
+Stops reading the playlists names, 'cause you have too much music and you
+already found that one playlist you like.
+-------------------------------------------------------------------------------

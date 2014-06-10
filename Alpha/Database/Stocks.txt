@@ -1,0 +1,17 @@
+==========================================
+:: Stocks Database			
+==========================================
+
+<wallst>
+
+<stock>
+<name>Apple</name>
+<code>AAPL</code>
+</stock>
+
+<stock>
+<name>Microsoft</name>
+<code>MSFT</code>
+</stock>
+
+</wallst>

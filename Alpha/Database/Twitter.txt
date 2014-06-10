@@ -1,0 +1,19 @@
+==========================================
+:: Twitter Database			
+==========================================
+
+<twitmax>5</twitmax>		Max # of tweets read.
+
+<blah>
+
+<twitter>
+<name>?President ?Barack Obama</name>
+<user>barackobama</user>
+</twitter>
+
+<twitter>
+<name>?Bill gates</name>
+<user>BillGates</user>
+</twitter>
+
+</blah>

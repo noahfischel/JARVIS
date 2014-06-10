@@ -1,0 +1,37 @@
+===============================================================================
+:: Shutdown Module
+===============================================================================
+							Created by Noah Fischel
+
+This module can either shutdown or restart the computer.
+If it happens to be mishearing any other command for this one, don't be afraid
+to delete this module, but a confirmation has been put in for safety anyway.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Shutdown|Restart the computer
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Shutdown/Restart
+
+EX:	Shutdown the computer
+	Turn off the computer
+	Initiate shutdown
+	Terminate all systems
+
+	Restart the computer
+	Reset the computer
+	Initiate system restart
+	Restart all systems
+
+Force system shutdown/restart, so remember to save anything you might be
+working on before using it.
+Requires confirmation.
+-------------------------------------------------------------------------------

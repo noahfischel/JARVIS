@@ -1,0 +1,92 @@
+===============================================================================
+:: Facebook Module
+===============================================================================
+							Created by Noah Fischel
+
+Wanna check your social connections and updates via voice? We got you covered!
+Just like the email module, this one checks any new update and reads it back to
+you. And it also have the new AUTOCHECK! YAY!
+If you are having any trouble getting your facebook RSS-Feed link, check the
+Facebook.jpg file over at the Read-me folder.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Open Facebook
+
+>> Turn Facebook autocheck ON/OFF
+>> check Facebook autocheck
+
+>> Check/Read Facebook
+>> Stop Reading
+
+>> Change Facebook Feed
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Open Facebook
+
+EX:	Open my Facebook
+	Show me my Facebook
+
+Simply opens Facebook.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Turn Facebook autocheck ON/OFF
+
+EX:	Turn Facebook autocheck ON/OFF
+	Initiate Facebook autocheck, please
+	Terminate Facebook autocheck
+
+THE BRAND NEW AUTOCHECK! While ON it will check your Facebook every X minutes
+(set the value of the intervals in the database) for new notifications. It
+doesnt read all of your notifications, just the ones you RECEIVE while it's ON!
+Its pretty much the same as the email autocheck. Im even copying everything
+from it.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Check Facebook autocheck
+
+EX:	Check Facebook autocheck, would you?
+	Is Facebook autocheck ON?
+	Can you check if is Facebook autocheck OFF?
+
+Checks wether facebook autocheck is ON or OFF.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Check/Read Facebook
+
+Ex:	Check my Facebook
+	Do I have new Notifications?
+	How many new notifications do I have?
+
+Checks your facebook for new notifications. If you do have them, it asks for
+confirmation to read them for you. A simple "yes, please" or "no, thank you"
+answers it.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Stop Reading
+
+Ex:	Stop Reading please
+	Stop Talking
+	Thank you
+	That's enough
+
+Stops reading your notifications, in case there are too many of them 'cause you
+are way too popular.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Change Facebook Feed
+
+Sets or changes facebook RSS Feed
+-------------------------------------------------------------------------------

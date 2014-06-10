@@ -1,0 +1,99 @@
+===============================================================================
+:: Movies Module
+===============================================================================
+							Created by Noah Fischel
+
+A movie module. It auto-detects the movies you have in you movie folder and 
+plays them at your request. The supported types are: folders, 3g2, 3gp, asf,
+avi, flv, mov, mp4, mpg, rm, swf, vob and wmv.
+For this module to work, you need to keep your movie folder organized. Your
+movie is not supposed to be named "FightClub[1999]DVDRipx264-KLAXXON". It
+should be named simply "Fight Club".
+To better understand how it works, check the Movies.jpg file in the read-me
+folder.
+Starting from v3, Alpha shall ask you to define the desired movie folder on
+startup, simplifying everything.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Change Movies Folder
+>> How many movies do I have?
+>> What can I watch?
+>> Play [Movie]
+>> Load [Movie] plot/trivia/main page
+>> Stop Reading
+>> Play movie from list
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+>> Change Movies Folder
+
+Changes movies folder and rereads your available movies.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Play Movie from List
+
+Picks movie from a list of available ones, as to minimize listening errors.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> How many movies do I have?
+
+EX:	Would you kindly check how many movies do I have?
+	How many movies can I watch?
+
+Simply states the amount of movies you have available for viewing.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> What can I watch?
+
+EX:	Which movies do I have?
+	can you check What can I watch?
+
+States how many movies you have and lists all of their names.
+To stop the reading of the list, check the Stop Reading Command.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Play [Movie]
+
+EX:	Please play [Movie]
+	Start playing [Movie]
+	I want to watch [Movie]
+
+Open the selected movie's file, sets it fullscreen and disables WSR, so you can
+enjoy your movie.
+If the movie is inside its folder and not in the main folder, it simply opens
+the folder.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Load [Movie] plot/trivia/main page
+
+EX:	Load [Movie] page
+	Show the trivia for [Movie]
+	What's the plot of [Movie]?
+
+Opens the desired page on IMDB for the movie.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+>> Stop Reading
+
+Ex:	Stop Reading please
+	Stop Talking
+	Thank you
+	That's enough
+
+Stops reading the movies list 'cause you already found that movie you are going
+to watch for the 36th time.
+-------------------------------------------------------------------------------

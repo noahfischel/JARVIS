@@ -1,0 +1,105 @@
+===============================================================================
+:: Casino Module
+===============================================================================
+							Created by Noah Fischel
+
+Who doesnt like to play a little game of chance? Principally when there's
+NO MONEY AT ALL involved. These two simple games require little to no input and
+might actually be fun to play for a while. Just don't get bored too fast.
+
+Both games are simple games of chance and require only a voice command input to
+work. You start with 10 coins and for every time you play one of the games, a
+coin is deducted of your total amount. Any payout from any of the games is
+added to the total coin amount. Both games have a payout rate of 1.5: that
+means that for every 10 coins you spend you should receive, on average, 15
+coins. These coins have no use what-so-ever, they are used solely as milestones
+for the badges received when completing certain task, like collecting more than
+a given amount of coins or getting lucky enough a certain amount of times.
+
+Have fun collecting all of the badges! But if you don't have enough patienty,
+the list of available badges is right on the bottom of this very file.
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Play the Slots machine
+>> Spin the Wheel
+>> Display Gaming Badges
+
+[I take that all of these are self explanatory]
+
+
+===============================================================================
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+::   Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers! Spoilers!   ::
+===============================================================================
+
+===============================================================================
+:: BADGES
+===============================================================================
+
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       | 
+ |   :: LUCKY BADGE ::   | |  :: GAMBLER BADGE ::  | |  :: ADDICTED BADGE :: |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       |
+ |    50+ Coins Total    | |   250+ Coins Total    | |    500+ Coins Total   |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+
+
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       | 
+ |  :: SPINNER BADGE ::  | |  :: FORTUNE BADGE ::  | | :: MISFORTUNE BADGE ::|
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       |
+ |  First Wheel Jackpot  | |  Five Wheel Jackpots  | |   Ten Wheel Max Loss  |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+
+
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       | 
+ |   :: SLOTS BADGE ::   | |  :: JACKPOT BADGE ::  | |  :: TRIPLE BADGE ::   |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       |
+ |   First Slots Payout  | |  First Slots Jackpot  | | Three Slots Jackpots  |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+
+
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       | 
+ |   :: BROKE BADGE ::   | |  :: HACKER BADGE ::   | |    :: DEBT BADGE ::   |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ |                       | |                       | |                       |
+ |     Zero or Fewer     | |     Unsuccessful      | |      Maximum Debt     |
+ |      Coins Total      | |    Hacking Attempt    | |     10 Coins Owned    |
+ |                       | |                       | |                       |
+ +-----------------------+ +-----------------------+ +-----------------------+ 
+ 

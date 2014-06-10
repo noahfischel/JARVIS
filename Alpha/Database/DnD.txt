@@ -1,0 +1,23 @@
+==========================================
+:: Dungeons & Dragons Database			
+==========================================
+
+<dnd>
+
+<set>
+<name>Fireball</name>
+<amount>4</amount>
+<dice>6</dice>
+<mod>-2</mod>
+<type>1</type>
+</set>
+
+<set>
+<name>Detect Evil</name>
+<amount>1</amount>
+<dice>20</dice>
+<mod>+5</mod>
+<type>6</type>
+</set>
+
+</dnd>

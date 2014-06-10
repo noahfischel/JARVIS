@@ -1,0 +1,56 @@
+===============================================================================
+:: Dungeons & Dragons Module
+===============================================================================
+							Created by Noah Fischel
+
+I think I got a bit carried away by the whole dice idea and created an entire
+DnD gaming module.
+Now you can have all your spells an dice sets handy, without having to deal
+with those pesky real dice. Create, manage and use your most frequent spells
+and go smite some dragons!
+
+
+===============================================================================
+:: Command List
+===============================================================================
+
+>> Create new [Spell|Dice Set]
+>> Edit [Spell|Dice Set]
+>> Delete [Spell|Dice Set]
+>> Roll for [Name]
+>> Cast Spell from list
+>> Display [Spell|Dice Set] list
+
+
+===============================================================================
+:: Command Analysis
+===============================================================================
+
+-------------------------------------------------------------------------------
+Create new [Spell|Dice Set]
+
+Creates a Spell or dice set, eg: 4d20+2
+Choose Spell Name, dice amount, dice type, modifier and Spell type.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Edit|Delete [Spell|Dice Set]
+
+Edit|Delete currently existing spell or dice set.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Roll for [Name]
+
+Ex:	Cast [SpellName]
+	Roll for [DiceSet]
+
+Actively use your sets.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Display [Spell|Dice Set] list
+
+Shows list of available spells
+-------------------------------------------------------------------------------
+
